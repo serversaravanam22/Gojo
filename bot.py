@@ -6,7 +6,8 @@ import sys
 from datetime import datetime
 from config import API_HASH, API_ID, LOGGER, BOT_TOKEN, TG_BOT_WORKERS, FORCE_SUB_CHANNEL, FORCE_SUB_CHANNEL2, CHANNEL_ID, PORT
 import pyrogram.utils
-
+import logging
+from pyrogram import Client
 pyrogram.utils.MIN_CHANNEL_ID = -1009999999999
 
 
@@ -90,3 +91,14 @@ class Bot(Client):
 # Telegram Channel @Madflix_Bots
 # Backup Channel @JishuBotz
 # Developer @JishuDeveloper
+
+
+logging.basicConfig(level=logging.INFO)
+logging.info("Starting the bot...")
+
+app = Client("my_bot")
+
+if __name__ == "__main__":
+    logging.info("Bot is now running...")
+    app.run()  # Keeps the bot alive
+    logging.info("Bot has stopped.")
