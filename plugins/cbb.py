@@ -13,12 +13,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     if data == "about":
         await query.message.edit_text(
             text = f"""<b>╭───────────⍟
-├➽ Dᴇᴠᴇʟᴏᴩᴇʀ : <a href='tg://user?id={6693549185}'>Mᴏᴏɴ</a>
+├➽ Dᴇᴠᴇʟᴏᴩᴇʀ : <a href='tg://user?id={6283322330}'>Mᴏᴏɴ</a>
 ├➽ Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pʏʀᴏɢʀᴀᴍ</a>
 ├➽ Lᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>Pʏᴛʜᴏɴ 3</a>
-├➽ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : <a href=https://t.me/in_Tamil_Anime>Tᴇᴀᴍ 59 ( Iɴᴅᴇx ) 🔰</a>
-├➽ Mᴀɪɴ Cʜᴀɴɴᴇʟ : <a href=https://t.me/in_Tamil_Anime>Tᴇᴀᴍ 59 ( Iɴᴅᴇx ) 🔰</a>
-├➽ Mᴀɪɴ Gʀᴏᴜᴘ : <a href=https://t.me/in_Tamil_Anime>Tᴇᴀᴍ 59 ( Iɴᴅᴇx ) 🔰</a></b>
+├➽ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : <a href=https://t.me/Tamil_anime_channel_17>Aɴɪᴍᴇ Tᴇᴀᴍ 🔰</a>
+├➽ Mᴀɪɴ Cʜᴀɴɴᴇʟ : <a href=https://t.me/Tamil_anime_channel_17>Aɴɪᴍᴇ Tᴇᴀᴍ 🔰</a>
+├➽ Mᴀɪɴ Gʀᴏᴜᴘ : <a href=https://t.me/Tamil_anime_channel_17>Aɴɪᴍᴇ Tᴇᴀᴍ 🔰</a></b>
 ╰───────────────⍟ """,
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
